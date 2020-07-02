@@ -5,6 +5,10 @@
     <RootNamespace>netcore_deploy_heroku</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.CommandLine" Version="3.1.5" />
+  </ItemGroup>
+
 
 
 </Project>
